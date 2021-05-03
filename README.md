@@ -23,11 +23,12 @@ Obs.: Arquivos PSD econtram-se na pasta assets.
 - No layout, você pode utilizar algum framework CSS (ex: Bootstrap, MaterializeCSS, Bulma...);
 
 ### O que será avaliado?
+
+- HTML semântico, limpo e claro;
+- CSS responsivo, semântico, reutilizável e seguindo boas práticas;
 - Organização do projeto;
 - Lógica do código;
 - Uso do Git;
-- HTML semântico, limpo e claro;
-- CSS responsivo, semântico, reutilizável e seguindo boas práticas;
-- Utilização correta de git;
+- Histórico de commits do git;
 
 **Boa sorte!**
