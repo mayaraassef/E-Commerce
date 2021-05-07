@@ -209,6 +209,11 @@ body{
     margin-left:35%;
 }
 
+.carrossel-mobile-h3{
+   margin-left: 35%;
+}
+
+
 #img-footer{
     margin-top: 60px;
     background-image: url(imagens/imagem-footer.JPG);
@@ -264,6 +269,11 @@ body{
         left: 40%;
         
     }
+
+     .nav-item{
+        background-color: whitesmoke;
+        
+    }
     
 
     .navbar-toggler{
@@ -276,6 +286,10 @@ body{
     }
     .carrinho{
         display: block;
+    }
+
+    .vantagens {
+        margin-left: 25%;
     }
 
     #produtos2, #produtos3{
@@ -300,6 +314,7 @@ body{
 
     #footer {
         text-align: center;
+        margin-top:20px;
     }
     
 
