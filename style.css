@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:white; 
+}
+.navbar-brand img{
+    margin-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 20px;
+    margin: 2px;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+}
+
+
+
+.carrossel1{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 40%;
+}
+
+.carrossel1 h1{
+    position: absolute;
+    top: 60%;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(216, 13, 13);
+}
+
+.carrossel1 span {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+}
+
+.indicator1{
+    top: 90%;
+}
+
+.indicator1 li {
+    color: red;
+}
+
+.inner1 img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    opacity: 90%;
+    
+    
+}
+
+#vantagens {
+    background-color:rgba(234, 238, 241, 0.76) ;
+}
+
+.vantagens {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+
+#produtos1{
+    margin-top: 20px;
+}
+.col-md-2 {
+    margin-left: 80px;
+}
+
+.col-md-2 span {
+    margin-left: 25%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+
+
+
+
+.produto-imagem{
+    width: 130px;
+    border-radius: 100%;
+    margin:30px;
+
+}
+
+.produto-imagem:hover {
+    -moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+#produtos2{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+
+.produto-imagem2 {
+    width:150px;
+}
+
+.titulo {
+    margin-right: 20%;
+}
+
+.preco {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+.icone-controller{
+    color: black;
+}
+
+.nextcontroller{
+    margin-right: 24em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:967px){
+    .navbar-collapse, .collapse{
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        
+    }
+
+    .navbar-toggler{
+        position: absolute;
+        left: 70%;
+    }
+
+    .icone {
+        display: none;
+    }
+    .carrinho{
+        display: block;
+    }
+
+    
+}
